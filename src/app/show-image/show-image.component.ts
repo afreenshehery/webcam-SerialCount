@@ -63,6 +63,8 @@ export class ShowImageComponent implements OnInit {
     console.log(data);
 
     this.i = data
+    
+    this.router.navigate(['/camra'])
   }
   reTake() {
     let i = 1
