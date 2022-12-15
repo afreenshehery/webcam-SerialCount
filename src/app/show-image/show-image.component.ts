@@ -54,7 +54,7 @@ export class ShowImageComponent implements OnInit {
     const linkSource =
       this.webcamImage;
     const downloadLink = document.createElement('a');
-    const fileName = imageName + '.' + 'png';
+    const fileName = imageName + '.' + 'jpg';
 
     downloadLink.href = linkSource;
     downloadLink.download = fileName;
