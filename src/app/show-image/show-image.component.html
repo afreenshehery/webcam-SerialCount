@@ -1,0 +1,9 @@
+<div class="full">
+  <div class="snapshot div1" *ngIf="webcamImage">
+    <img [src]="webcamImage" />
+  </div>
+  <div class="div3">
+    <button class="btn btn" (click)="downgload()">Proceed</button>
+    <button class="btn btn" (click)="reTake()">re-take</button>
+  </div>
+</div>
